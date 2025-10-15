@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversario 💖</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Feliz Aniversario Mi Amor 💝</h1>
+            <div class="subtitle">Cada momento contigo es especial Lucero Keterine Valdez Colca</div>
+            <div class="date" id="currentDate"></div>
+        </div>
+
+        <div class="nav">
+    <button class="nav-btn active" onclick="showSection('fotos', event)">Fotos</button>
+<button class="nav-btn" onclick="showSection('videos', event)">Videos</button>
+<button class="nav-btn" onclick="showSection('mensajes', event)">Mensajes</button>
+
+        </div>
+
+        <div class="content">
+            <!-- Sección Fotos -->
+            <div id="fotos" class="section active">
+                <h2>Nuestras Fotos</h2>
+                <div class="gallery">
+                    <!-- Reemplaza estos src con tus imágenes reales -->
+                    <div class="photo" onclick="openModal('img/imagen0.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen0.jpeg" alt="Foto 1" onerror="this.style.display='none'">
+                       </div>
+
+                    <div class="photo" onclick="openModal('img/imagen1.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen1.jpeg" alt="Foto 2" onerror="this.style.display='none'"> 
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen2.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen2.jpeg" alt="Foto 3" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen3.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen3.jpeg" alt="Foto 4" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen4.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen4.jpeg" alt="Foto 5" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen5.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen5.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen6.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen6.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen7.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen7.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen8.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen8.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen9.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen9.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen10.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen10.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen11.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen11.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen12.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen12.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen13.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen13.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen14.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen14.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen15.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen15.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen16.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen16.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen17.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen17.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen18.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen18.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen19.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen19.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen20.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen20.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen21.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen21.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen22.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen22.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                    <div class="photo" onclick="openModal('img/imagen23.jpeg', 'Recuerdo de Riki y Katy')">
+                        <img src="img/imagen23.jpeg" alt="Foto 6" onerror="this.style.display='none'">
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Sección Videos -->
+            <div id="videos" class="section">
+                <h2>Nuestros Videos</h2>
+                <div class="videos-grid">
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video1.mp4">
+                                <source src="img/video1.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video2.mp4">
+                                <source src="img/video2.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                           <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video3.mp4">
+                                <source src="img/video3.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video4.mp4">
+                                <source src="img/video4.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                           <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video5.mp4">
+                                <source src="img/video5.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                           <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video6.mp4">
+                                <source src="img/video6.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                           <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-player">
+                            <video controls poster="img/video7.mp4">
+                                <source src="img/video7.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                           <h3>KR</h3>
+                            <p>MOMENTOS COMPARTIDOS RIKI Y KATY</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+           <!-- Sección Mensajes -->
+<div id="mensajes" class="section">
+    <h2>Mensajes del Corazón</h2>
+    <div class="messages">
+        <!-- Mensaje 1 -->
+        <div class="message-container">
+            <div class="message-closed" onclick="revealMessage(0)">
+                <span class="click-instruction">💕 💌 Toca para leer mi mensaje💕</span>
+            </div>
+            <div class="message-open">
+                <h3>❣️</h3>
+                <p>"No hay mejor sensación que mirar atrás y ver cuánto hemos crecido juntos. Hemos pasado por momentos difíciles y también por los más hermosos, pero siempre de la mano. Nuestro amor no se mide en tiempo, sino en todo lo que hemos compartido, en cada risa, cada beso y cada promesa que cumplimos sin decir una palabra."</p>
+            </div>
+        </div>
+
+        <!-- Mensaje 2 -->
+        <div class="message-container">
+            <div class="message-closed" onclick="revealMessage(1)">
+                <span class="click-instruction">💕 💌 Toca para leer mi mensaje💕</span>
+            </div>
+            <div class="message-open">
+                <h3>❣️</h3>
+                <p>"El tiempo puede pasar, los años pueden cambiarlo todo, pero hay algo que siempre será igual: la forma en que mi corazón late cuando te ve. Eres mi constancia en un mundo lleno de cambios, mi refugio cuando la vida se vuelve ruido."</p>
+            </div>
+        </div>
+
+        <!-- Mensaje 3 -->
+        <div class="message-container">
+            <div class="message-closed" onclick="revealMessage(2)">
+                <span class="click-instruction">💕 💌 Toca para leer mi mensaje💕</span>
+            </div>
+            <div class="message-open">
+                <h3>❣️</h3>
+                <p>"Nuestro amor no nació de la casualidad, sino de la conexión de dos almas que decidieron encontrarse y no soltarse. Eres mi verso más bonito, mi canción favorita y la historia que quiero seguir escribiendo todos los días."</p>
+            </div>
+        </div>
+
+        <!-- Mensaje 4 -->
+        <div class="message-container">
+            <div class="message-closed" onclick="revealMessage(3)">
+                <span class="click-instruction"> 💕 💌 Toca para leer mi mensaje💕</span>
+            </div>
+            <div class="message-open">
+                <h3>❣️</h3>
+                <p>"Contigo aprendí que el amor no siempre brilla, a veces también se construye en la sombra, se riega con lágrimas y se sostiene con fe. Y aun así, sigue siendo lo más hermoso del mundo."</p>
+            </div>
+        </div>
+
+        <!-- Mensaje 5 -->
+        <div class="message-container">
+            <div class="message-closed" onclick="revealMessage(4)">
+                <span class="click-instruction"> 💕 💌 Toca para leer mi mensaje💕</span>
+            </div>
+            <div class="message-open">
+                <h3>❣️</h3>
+                <p>"Eres el poema que nunca supe escribir, pero que la vida me permitió vivir."</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="footer">
+            <p>Hecho con <span class="heart">♥</span> para nuestro aniversario</p>
+        </div>
+    </div>
+
+    <!-- Modal para fotos -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                <!-- Contenido del modal -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fecha actual
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('es-ES', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // Cambiar secciones
+        function showSection(sectionId) {
+            // Ocultar todas las secciones
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remover active de todos los botones
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Mostrar sección seleccionada
+            document.getElementById(sectionId).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
+        // Modal para fotos
+        function openModal(imageSrc, title) {
+            document.getElementById('modal-body').innerHTML = `
+                <h3>${title}</h3>
+                <img src="${imageSrc}" alt="${title}" style="width: 100%; border-radius: 10px; margin: 15px 0;">
+                <p>${title} - Un recuerdo especial de nuestro amor</p>
+            `;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+
+        // Cerrar modal al hacer click fuera
+        window.onclick = function(event) {
+            const modal = document.getElementById('modal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // Ocultar placeholders cuando las imágenes cargan
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.photo img').forEach(img => {
+                img.onload = function() {
+                    this.parentNode.querySelector('.photo-placeholder').style.display = 'none';
+                };
+            });
+        });
+        // Revelar mensajes al hacer click
+function revealMessage(messageIndex) {
+    const messageContainers = document.querySelectorAll('.message-container');
+    const container = messageContainers[messageIndex];
+    
+    // Agregar clase para mostrar el mensaje
+    container.classList.add('message-revealed');
+}
+
+// Inicializar - asegurar que todos empiecen cerrados
+document.addEventListener('DOMContentLoaded', function() {
+    const messageContainers = document.querySelectorAll('.message-container');
+    messageContainers.forEach(container => {
+        container.classList.remove('message-revealed');
+    });
+});
+
+    </script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const backgroundMusic = document.getElementById("backgroundMusic");
+  let musicaActivada = false; // controla si la música está activa
+  let primerClickHecho = false;
+
+  // Configurar volumen inicial
+  if (backgroundMusic) backgroundMusic.volume = 0.7;
+
+  // 🔹 Función: Reproducir música al primer clic del usuario
+  function iniciarMusica() {
+    if (!primerClickHecho) {
+      primerClickHecho = true;
+      musicaActivada = true;
+      backgroundMusic.play().catch(err => console.warn("Reproducción bloqueada:", err));
+      document.removeEventListener("click", iniciarMusica);
+    }
+  }
+  document.addEventListener("click", iniciarMusica);
+
+  // 🔹 Función: Controlar música según la sección
+  function controlarMusica(seccion) {
+    if (!musicaActivada) return; // no hagas nada si no se ha activado aún
+    if (seccion === "videos") {
+      backgroundMusic.pause();
+    } else {
+      backgroundMusic.play().catch(() => {});
+    }
+  }
+
+  // 🔹 Función: Cambiar de sección
+  window.showSection = function(sectionId, event) {
+    document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
+    document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+
+    document.getElementById(sectionId).classList.add("active");
+    if (event) event.currentTarget.classList.add("active");
+
+    controlarMusica(sectionId);
+  };
+});
+</script>
+
+
+
+<!-- Agrega esto antes de cerrar </body> -->
+<audio id="backgroundMusic" loop>
+  <source src="img/wwd.mp3juice.blog - Reik ft. Felix y Gil - Al Fin Estás Aquí (Official Video) 2025 Estreno (320 KBps).mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+</body>
+</html>
